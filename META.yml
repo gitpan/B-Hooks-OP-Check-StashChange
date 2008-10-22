@@ -5,6 +5,7 @@ author:
 build_requires:
   B::Hooks::OP::Check: 0.11
 configure_requires:
+  B::Hooks::OP::Check: 0.11
   ExtUtils::Depends: 0
 distribution_type: module
 generated_by: 'Module::Install version 0.77'
@@ -22,4 +23,4 @@ requires:
   parent: 0
 resources:
   license: http://dev.perl.org/licenses/
-version: 0.01
+version: 0.02
