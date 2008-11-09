@@ -3,9 +3,9 @@ abstract: 'Invoke callbacks when the stash code is being compiled in changes'
 author:
   - 'Florian Ragwitz <rafl@debian.org>'
 build_requires:
-  B::Hooks::OP::Check: 0.11
+  B::Hooks::OP::Check: 0.14
 configure_requires:
-  B::Hooks::OP::Check: 0.11
+  B::Hooks::OP::Check: 0.14
   ExtUtils::Depends: 0
 distribution_type: module
 generated_by: 'Module::Install version 0.77'
@@ -19,8 +19,8 @@ no_index:
     - inc
     - t
 requires:
-  B::Hooks::OP::Check: 0.11
+  B::Hooks::OP::Check: 0.14
   parent: 0
 resources:
   license: http://dev.perl.org/licenses/
-version: 0.03
+version: 0.04
