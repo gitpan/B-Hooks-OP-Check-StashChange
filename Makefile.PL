@@ -8,6 +8,7 @@ all_from 'lib/B/Hooks/OP/Check/StashChange.pm';
 
 requires 'parent';
 requires 'B::Hooks::OP::Check' => '0.14';
+test_requires 'Test::More';
 build_requires 'B::Hooks::OP::Check' => '0.14';
 configure_requires 'B::Hooks::OP::Check' => '0.14';
 configure_requires 'ExtUtils::Depends';
@@ -26,6 +27,9 @@ makemaker_args(
     DL_FUNCS => { 'B::Hooks::OP::Check::StashChange' => [] },
     dist => { PREOP => 'pod2text lib/B/Hooks/OP/Check/StashChange.pm > README' },
 );
+
+repository 'git://github.com/rafl/b-hooks-op-check-stashchange.git';
+bugtracker 'http://rt.cpan.org/Public/Dist/Display.html?Name=B-Hooks-OP-Check-StashChange';
 
 extra_tests;
 
